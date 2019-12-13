@@ -10,7 +10,6 @@ a)  a = 0
     while (a < n * n * n):
       a = a + n * n
 ```
-• O(n) - while loop only runs n times based on variable
 
 ```
 b)  sum = 0
@@ -20,7 +19,7 @@ b)  sum = 0
         j *= 2
         sum += 1
 ```
-• O(n log n) - inner loop is running on less than what the outer loop is so total time will increase at a rate greater than the size of n
+
 ```
 c)  def bunnyEars(bunnies):
       if bunnies == 0:
@@ -28,7 +27,6 @@ c)  def bunnyEars(bunnies):
 
       return 2 + bunnyEars(bunnies-1)
 ```
-• O(n) - runs for every bunny passed in
 
 ## Exercise II
 
